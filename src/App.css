@@ -1,0 +1,48 @@
+body{
+  background-color: #248bec;
+}
+.App{
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  align-items: center;
+
+}
+.card{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: aliceblue;
+  margin:20px;
+  padding: 10px;
+  border-radius: 20px;
+  height:auto;
+  box-shadow: 10px 10px 10px 1px black;
+}
+.header{
+text-align: center;
+border-bottom: 1px solid black;
+}
+.content{
+  font-size: large;
+  font-weight: 500;
+  color:black;
+}
+button{
+  font-family:monospace;
+  border: #00ffff;
+  font-size:20px;
+  font-weight:500;
+  padding:20px;
+  margin:30px;
+  width:300px;
+  color: rgb(255, 255, 255);
+  background: #248bec;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.btn:hover{
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+}
+.card:hover{
+  margin-top: -.25rem;
+  margin-bottom: .25rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+}
